@@ -12,6 +12,7 @@ class hashTableArray {
     let arr = [],
      onRepeat,
      splitted = str.split(" ");
+     
     for (let i = 0; i < splitted.length; i++) {
      arr.includes(splitted[i]) ? (onRepeat = splitted[i]) : arr.push(splitted[i]);
      if (onRepeat) return onRepeat;
